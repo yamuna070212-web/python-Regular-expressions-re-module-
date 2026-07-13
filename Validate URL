@@ -1,0 +1,12 @@
+import re
+
+url = "https://www.google.com"
+
+pattern = r"https?://\S+"
+
+if re.fullmatch(pattern, url):
+    print("Valid URL")
+else:
+    print("Invalid URL")
+Output
+Valid URL
