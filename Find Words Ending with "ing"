@@ -1,0 +1,9 @@
+import re
+
+text = "Programming Coding Playing Python"
+
+result = re.findall(r"\w+ing\b", text)
+
+print(result)
+Output
+['Programming', 'Coding', 'Playing']
