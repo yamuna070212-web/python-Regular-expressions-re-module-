@@ -1,0 +1,9 @@
+import re
+
+text = "Python is Easy"
+
+words = re.findall(r"\w+", text)
+
+print(words)
+Output
+['Python', 'is', 'Easy']
