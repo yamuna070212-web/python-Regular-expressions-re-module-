@@ -1,0 +1,9 @@
+import re
+
+text = "Python"
+
+result = re.findall(r"[a-z]", text)
+
+print(result)
+Output
+['y', 't', 'h', 'o', 'n']
