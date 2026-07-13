@@ -1,0 +1,9 @@
+import re
+
+text = "My age is 20 and roll number is 105"
+
+numbers = re.findall(r"\d+", text)
+
+print(numbers)
+Output
+['20', '105']
