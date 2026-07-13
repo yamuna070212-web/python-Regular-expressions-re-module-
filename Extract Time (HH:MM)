@@ -1,0 +1,9 @@
+import re
+
+text = "Meeting starts at 10:30 and ends at 12:45"
+
+times = re.findall(r"\d{2}:\d{2}", text)
+
+print(times)
+Output
+['10:30', '12:45']
