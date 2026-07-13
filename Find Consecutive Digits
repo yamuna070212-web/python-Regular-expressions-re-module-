@@ -1,0 +1,9 @@
+import re
+
+text = "abc123xyz456"
+
+result = re.findall(r"\d+", text)
+
+print(result)
+Output
+['123', '456']
