@@ -1,0 +1,9 @@
+import re
+
+text = "Python Programming Java PHP"
+
+result = re.findall(r"\bP\w*", text)
+
+print(result)
+Output
+['Python', 'Programming', 'PHP']
