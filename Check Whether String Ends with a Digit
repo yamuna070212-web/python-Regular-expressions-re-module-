@@ -1,0 +1,10 @@
+import re
+
+text = "Python123"
+
+if re.search(r"\d$", text):
+    print("Ends with digit")
+else:
+    print("Does not end with digit")
+Output
+Ends with digit
