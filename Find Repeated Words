@@ -1,0 +1,9 @@
+import re
+
+text = "Python Python Java Java"
+
+result = re.findall(r"\b(\w+)\b", text)
+
+print(result)
+Output
+['Python', 'Python', 'Java', 'Java']
