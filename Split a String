@@ -1,0 +1,9 @@
+import re
+
+text = "Python,Java,C,C++"
+
+result = re.split(",", text)
+
+print(result)
+Output
+['Python', 'Java', 'C', 'C++']
