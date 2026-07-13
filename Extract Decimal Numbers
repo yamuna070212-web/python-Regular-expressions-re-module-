@@ -1,0 +1,9 @@
+import re
+
+text = "Price is 250.75 and tax is 18.5"
+
+numbers = re.findall(r"\d+\.\d+", text)
+
+print(numbers)
+Output
+['250.75', '18.5']
