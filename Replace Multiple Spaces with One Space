@@ -1,0 +1,9 @@
+import re
+
+text = "Python     is      easy"
+
+result = re.sub(r"\s+", " ", text)
+
+print(result)
+Output
+Python is easy
