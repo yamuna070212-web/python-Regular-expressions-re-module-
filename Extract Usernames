@@ -1,0 +1,9 @@
+import re
+
+text = "@ram @john @asha"
+
+users = re.findall(r"@\w+", text)
+
+print(users)
+Output
+['@ram', '@john', '@asha']
