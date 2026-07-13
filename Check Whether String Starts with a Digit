@@ -1,0 +1,10 @@
+import re
+
+text = "123Python"
+
+if re.match(r"\d", text):
+    print("Starts with digit")
+else:
+    print("Does not start with digit")
+Output
+Starts with digit
