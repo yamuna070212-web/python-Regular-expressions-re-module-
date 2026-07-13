@@ -1,0 +1,7 @@
+import re
+
+text = "Python is easy"
+
+print(re.split(r"\s", text))
+Output
+['Python', 'is', 'easy']
