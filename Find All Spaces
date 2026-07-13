@@ -1,0 +1,9 @@
+import re
+
+text = "Python is Easy"
+
+spaces = re.findall(r"\s", text)
+
+print(spaces)
+Output
+[' ', ' ']
