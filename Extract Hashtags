@@ -1,0 +1,9 @@
+import re
+
+text = "Learning #Python #AI #ML"
+
+hashtags = re.findall(r"#\w+", text)
+
+print(hashtags)
+Output
+['#Python', '#AI', '#ML']
