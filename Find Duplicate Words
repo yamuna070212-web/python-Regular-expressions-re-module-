@@ -1,0 +1,9 @@
+import re
+
+text = "cat cat dog dog bird"
+
+duplicates = re.findall(r"\b(\w+)\s+\1\b", text)
+
+print(duplicates)
+Output
+['cat', 'dog']
