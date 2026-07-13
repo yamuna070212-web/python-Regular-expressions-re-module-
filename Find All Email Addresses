@@ -1,0 +1,9 @@
+import re
+
+text = "Contact: ram@gmail.com, john@yahoo.com"
+
+emails = re.findall(r"\S+@\S+", text)
+
+print(emails)
+Output
+['ram@gmail.com', 'john@yahoo.com']
