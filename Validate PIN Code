@@ -1,0 +1,10 @@
+import re
+
+pin = "560001"
+
+if re.fullmatch(r"\d{6}", pin):
+    print("Valid PIN")
+else:
+    print("Invalid PIN")
+Output
+Valid PIN
