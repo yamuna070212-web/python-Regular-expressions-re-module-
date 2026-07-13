@@ -1,0 +1,9 @@
+import re
+
+text = "Python Programming"
+
+result = re.findall(r"[aeiouAEIOU]", text)
+
+print(result)
+Output
+['o', 'o', 'a', 'i']
