@@ -1,0 +1,9 @@
+import re
+
+text = "Python Programming"
+
+result = re.findall(r"[A-Z]", text)
+
+print(result)
+Output
+['P', 'P']
