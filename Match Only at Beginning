@@ -1,0 +1,9 @@
+import re
+
+text = "Python Programming"
+
+result = re.match("Python", text)
+
+print(result)
+Output
+<re.Match object; span=(0, 6), match='Python'>
