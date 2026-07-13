@@ -1,0 +1,9 @@
+import re
+
+text = "Python Python Java"
+
+result = re.findall("Python", text)
+
+print(len(result))
+Output
+2
