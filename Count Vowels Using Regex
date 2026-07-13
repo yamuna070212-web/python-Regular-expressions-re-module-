@@ -1,0 +1,9 @@
+import re
+
+text = "Programming"
+
+vowels = re.findall(r"[AEIOUaeiou]", text)
+
+print(len(vowels))
+Output
+3
