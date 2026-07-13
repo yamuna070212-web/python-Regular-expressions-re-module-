@@ -1,0 +1,9 @@
+import re
+
+text = "I like Java"
+
+new_text = re.sub("Java", "Python", text)
+
+print(new_text)
+Output
+I like Python
